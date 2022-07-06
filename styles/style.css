@@ -7,6 +7,7 @@
   margin: 0 auto;
   /* выше для экранов больше 1600px отцентрировали весь контент */
   font-family: 'Helvetica Neue', Arial, sans-serif;
+  display: flex;
 }
 
 .header {
@@ -14,12 +15,101 @@
   min-height: 600px;
   max-height: 756px;
   /* выше установили ограничения для секции */
+  display: flex;
 }
+
+
+.logo{
+ 
+}
+
+.logo_place_header {
+  position: absolute;
+  margin-left: 64px;
+  margin-top: 30px;
+  width: 228px; 
+  height: 32px;
+  background-image: url(../images/logo_place_header.svg);
+}
+
+.header__title{
+  width: 730px;
+  margin-left: 64px;
+  line-height: 96px;
+  font-size: 102px;
+  font-weight: 600;
+  display: flex;
+  align-items: center;
+}
+
+.header__subtitle{
+position: absolute;
+width: 388px;
+margin-left: 64px;
+margin-bottom: 30px;
+line-height: 25px;
+font-size: 18px;
+font-weight: normal;
+align-self: flex-end;
+}
+
+.header__link{
+  color: #2f80ed;
+  text-decoration: none;
+  
+}
+
+.header__main-illustration{
+  position:absolute;
+  width: 765px;
+  height: 608px;
+  background-image: url(../images/header-image.png);
+  right: 0;
+  bottom:0;
+  background-size: cover;
+  z-index: 1;
+}
+
 
 /* ниже мы привели пример двух селекторов, чтобы вы вспомнили запись элемента */
 .header__square-pic {
   height: 568px;
   width: 568px;
+  background-color: #2f80ed;
+  margin-top: 64px;
+  position: absolute;
+  right: 0;
+}
+
+.content {
+  display: flex;
+  }
+
+.description{
+  display: flex;
+
+}ы
+
+.two-columns{
+  width: 80%;
+  min-width: 784px;
+  margin-top: 100px;
+}
+
+.digits{
+
+}
+
+.feynman{
+
+}
+
+.kaufman{
+
+}
+
+.footer{
+
 }
 
 /* и элемента с модификатором вида ключ-значение */
