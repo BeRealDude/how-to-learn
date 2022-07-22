@@ -83,7 +83,7 @@ align-self: flex-end;
 }
 
 
-.description{           /* Из оставшихся вопросов по description, текст в первом и во втором параграфе, как будто не помещается и переноситься*/
+.description{          
   display: flex;
   justify-content: center; /* Ставит по центру two-columns */
 }
@@ -155,7 +155,7 @@ align-self: flex-end;
 }
 
 .table{
-  margin: 60px auto 100px;
+  margin: 0 auto 100px;
   width: 1100px;
   display: flex;
   flex-wrap: wrap; /*Запомнить, нужная штука при построении списков*/
@@ -169,23 +169,22 @@ align-self: flex-end;
 
 .table__cell{
   width: 250px;
+  margin: 60px 0 0;
 }
 
-.table_margin{
-  margin: 0 0 60px;
-}
+
 .table__heading{
   line-height: 1.15;
   font-size: 24px;
   font-weight: 600;
-  margin: 0 0 20px;
+  margin: 0;
 }
 
 .table__text{
   line-height: 1.2;
   font-size: 18px;
   font-weight: normal;
-  margin: 0 0 20px;
+  margin: 20px 0 0;
 }
 
 
@@ -241,11 +240,79 @@ align-self: flex-end;
 }
 
 
-/* и элемента с модификатором вида ключ-значение 
-.table__cell_theme_dark {
+.kaufman{
+  overflow: hidden; 
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  background-color: #1f1f1f;
+}
+
+.section-title_theme_dark{
+  width: 60%;
+  margin: 90px auto 0;
+  line-height: 1.15;
+  font-size: 60px;
+  font-weight: 600;
+  display: flex;
+  justify-content: center;
+  color: white;
+}
+
+.section-subtitle_theme_dark{
+  width: 60%;
+  margin: 20px auto 0;
+  line-height: 34px;
+  font-size: 24px;
+  font-weight: normal;
+  display: flex;
+  justify-content: center;
+  color: white;
+}
+
+.table_theme_dark{
+  margin: 0 auto 90px;
+  width: 1100px;
+  display: flex;
+  flex-wrap: wrap; 
+  justify-content: space-between;
+  z-index: 1;
+  color: white;
+}
+
+.list{
+  list-style: none;
+  padding: 0;
+}
+
+.table__cell_theme_dark{
   width: 200px;
   color: white;
   margin-right: 0;
   margin-top: 80px;
 }
-*/
+
+
+.table__heading_theme_dark{
+  line-height: 1.15;
+  font-size: 24px;
+  font-weight: 600;
+  margin: 0;
+}
+
+.table__text_theme_dark{
+  line-height: 1.2;
+  font-size: 18px;
+  font-weight: normal;
+  margin: 20px 0 0;
+}
+
+.kaufman__triangle{
+  background-image: url(../images/kaufman-triangle.svg);
+  width: 877px;
+  height: 877px;
+  position: absolute;
+  margin: 0 -210px 0 0;
+}
+
