@@ -1,0 +1,7 @@
+.two-columns{
+    width: 80%;
+    margin-top: 100px;
+    display: flex;
+    align-items: baseline; /* Для того, чтобы brief стал по одной линии с main-text, почему-то без этого, текст брифа, становится чуть выше */
+    justify-content: space-between;
+  }
