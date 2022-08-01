@@ -4,4 +4,5 @@
     height: 877px;
     position: absolute;
     right: -210px;
+    animation: rotation 20s linear infinite;
   }
