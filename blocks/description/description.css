@@ -1,4 +1,5 @@
 .description{          
     display: flex;
     justify-content: center; /* Ставит по центру two-columns */
+    margin-top: 100px;
   }

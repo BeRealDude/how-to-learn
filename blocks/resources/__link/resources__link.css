@@ -4,3 +4,8 @@
     display: flex;
     justify-content: center;
 }
+
+.resources__link:hover{
+    transition: 0.3s;
+    opacity: 0.7;
+}
