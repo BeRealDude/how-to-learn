@@ -9,3 +9,6 @@
  - keyframes
  - **айрон эз** и **вери мач** терпения
  - а так же **10080** минут
+ 
+ ## Ссылка на проект:
+ https://berealdude.github.io/how-to-learn/
